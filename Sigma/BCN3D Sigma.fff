@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<profile name="BCN3D Sigma" version="2016-07-15 15:52:43" app="S3D-Software 3.1.0">
+  <baseProfile>Default</baseProfile>
+  <printMaterial>1.75</printMaterial>
+  <printQuality>Medium</printQuality>
+  <printExtruders>Left Extruder Only</printExtruders>
+  <extruder name="Left Extruder">
+    <toolheadNumber>0</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.46</width>
+    <extrusionMultiplier>1</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>3.5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>1800</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.5</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>1</wipeDistance>
+  </extruder>
+  <extruder name="Right Extruder">
+    <toolheadNumber>1</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.46</width>
+    <extrusionMultiplier>1</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>3.5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0</retractionZLift>
+    <retractionSpeed>1800</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.5</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>1</wipeDistance>
+  </extruder>
+  <primaryExtruder>0</primaryExtruder>
+  <layerHeight>0.2</layerHeight>
+  <topSolidLayers>4</topSolidLayers>
+  <bottomSolidLayers>4</bottomSolidLayers>
+  <perimeterOutlines>2</perimeterOutlines>
+  <printPerimetersInsideOut>1</printPerimetersInsideOut>
+  <startPointOption>2</startPointOption>
+  <startPointOriginX>0</startPointOriginX>
+  <startPointOriginY>0</startPointOriginY>
+  <startPointOriginZ>300</startPointOriginZ>
+  <sequentialIslands>0</sequentialIslands>
+  <spiralVaseMode>0</spiralVaseMode>
+  <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
+  <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
+  <useRaft>0</useRaft>
+  <raftExtruder>0</raftExtruder>
+  <raftLayers>3</raftLayers>
+  <raftOffset>3</raftOffset>
+  <raftSeparationDistance>0.14</raftSeparationDistance>
+  <raftInfill>85</raftInfill>
+  <disableRaftBaseLayers>0</disableRaftBaseLayers>
+  <useSkirt>1</useSkirt>
+  <skirtExtruder>0</skirtExtruder>
+  <skirtLayers>1</skirtLayers>
+  <skirtOutlines>2</skirtOutlines>
+  <skirtOffset>1</skirtOffset>
+  <usePrimePillar>0</usePrimePillar>
+  <primePillarExtruder>999</primePillarExtruder>
+  <primePillarWidth>15</primePillarWidth>
+  <primePillarLocation>7</primePillarLocation>
+  <primePillarSpeedMultiplier>1</primePillarSpeedMultiplier>
+  <useOozeShield>0</useOozeShield>
+  <oozeShieldExtruder>999</oozeShieldExtruder>
+  <oozeShieldOffset>10</oozeShieldOffset>
+  <oozeShieldOutlines>1</oozeShieldOutlines>
+  <oozeShieldSidewallShape>0</oozeShieldSidewallShape>
+  <oozeShieldSidewallAngle>30</oozeShieldSidewallAngle>
+  <oozeShieldSpeedMultiplier>1</oozeShieldSpeedMultiplier>
+  <infillExtruder>0</infillExtruder>
+  <internalInfillPattern>Full Honeycomb</internalInfillPattern>
+  <externalInfillPattern>Rectilinear</externalInfillPattern>
+  <infillPercentage>15</infillPercentage>
+  <outlineOverlapPercentage>50</outlineOverlapPercentage>
+  <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
+  <minInfillLength>5</minInfillLength>
+  <infillLayerInterval>1</infillLayerInterval>
+  <infillAngles>0,120,-120</infillAngles>
+  <overlapInfillAngles>0</overlapInfillAngles>
+  <generateSupport>0</generateSupport>
+  <supportExtruder>0</supportExtruder>
+  <supportInfillPercentage>20</supportInfillPercentage>
+  <supportExtraInflation>0</supportExtraInflation>
+  <denseSupportLayers>5</denseSupportLayers>
+  <denseSupportInfillPercentage>100</denseSupportInfillPercentage>
+  <supportLayerInterval>1</supportLayerInterval>
+  <supportHorizontalPartOffset>0.1</supportHorizontalPartOffset>
+  <supportUpperSeparationLayers>0</supportUpperSeparationLayers>
+  <supportLowerSeparationLayers>0</supportLowerSeparationLayers>
+  <supportType>0</supportType>
+  <supportGridSpacing>3</supportGridSpacing>
+  <maxOverhangAngle>45</maxOverhangAngle>
+  <supportAngles>0</supportAngles>
+  <temperatureController name="Left Extruder Temperature">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>0</isHeatedBed>
+    <relayBetweenLayers>0</relayBetweenLayers>
+    <relayBetweenLoops>0</relayBetweenLoops>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <setpoint layer="1" temperature="245"/>
+  </temperatureController>
+  <temperatureController name="Right Extruder Temperature">
+    <temperatureNumber>1</temperatureNumber>
+    <isHeatedBed>0</isHeatedBed>
+    <relayBetweenLayers>0</relayBetweenLayers>
+    <relayBetweenLoops>0</relayBetweenLoops>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <setpoint layer="1" temperature="0"/>
+  </temperatureController>
+  <temperatureController name="Heated Bed">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>1</isHeatedBed>
+    <relayBetweenLayers>0</relayBetweenLayers>
+    <relayBetweenLoops>0</relayBetweenLoops>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <setpoint layer="1" temperature="60"/>
+  </temperatureController>
+  <fanSpeed>
+    <setpoint layer="1" speed="0"/>
+    <setpoint layer="2" speed="100"/>
+  </fanSpeed>
+  <blipFanToFullPower>0</blipFanToFullPower>
+  <adjustSpeedForCooling>0</adjustSpeedForCooling>
+  <minSpeedLayerTime>5</minSpeedLayerTime>
+  <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+  <increaseFanForCooling>0</increaseFanForCooling>
+  <minFanLayerTime>45</minFanLayerTime>
+  <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
+  <increaseFanForBridging>0</increaseFanForBridging>
+  <bridgingFanSpeed>100</bridgingFanSpeed>
+  <use5D>1</use5D>
+  <relativeEdistances>0</relativeEdistances>
+  <allowEaxisZeroing>1</allowEaxisZeroing>
+  <independentExtruderAxes>0</independentExtruderAxes>
+  <includeM10123>0</includeM10123>
+  <stickySupport>1</stickySupport>
+  <applyToolheadOffsets>0</applyToolheadOffsets>
+  <gcodeXoffset>0</gcodeXoffset>
+  <gcodeYoffset>0</gcodeYoffset>
+  <gcodeZoffset>0</gcodeZoffset>
+  <overrideMachineDefinition>1</overrideMachineDefinition>
+  <machineTypeOverride>0</machineTypeOverride>
+  <strokeXoverride>210</strokeXoverride>
+  <strokeYoverride>297</strokeYoverride>
+  <strokeZoverride>210</strokeZoverride>
+  <originOffsetXoverride>0</originOffsetXoverride>
+  <originOffsetYoverride>0</originOffsetYoverride>
+  <originOffsetZoverride>0</originOffsetZoverride>
+  <homeXdirOverride>-1</homeXdirOverride>
+  <homeYdirOverride>-1</homeYdirOverride>
+  <homeZdirOverride>-1</homeZdirOverride>
+  <flipXoverride>1</flipXoverride>
+  <flipYoverride>-1</flipYoverride>
+  <flipZoverride>1</flipZoverride>
+  <toolheadOffsets>0,0|0,0|0,0|0,0|0,0|0,0</toolheadOffsets>
+  <overrideFirmwareConfiguration>1</overrideFirmwareConfiguration>
+  <firmwareTypeOverride>RepRap (Marlin/Repetier/Sprinter)</firmwareTypeOverride>
+  <GPXconfigOverride>r2</GPXconfigOverride>
+  <baudRateOverride>250000</baudRateOverride>
+  <overridePrinterModels>0</overridePrinterModels>
+  <printerModelsOverride></printerModelsOverride>
+  <startingGcode>G21        		;metric values,G90        		;absolute positioning,M82        		;set extruder to absolute mode,M107      		;start with the fan off,G28 X0 Y0  		;move X/Y to min endstops,G28 Z0     		;move Z to min endstops,G92 E0        		;zero the extruded length,G1 Z5 F200		;Safety Z axis movement,G1 F50 E10     		;extrude 7mm of feed stock,G92 E0        		;zero the extruded length again,G1 F200 E1		;Retract before printing,G1 F[travel_speed],</startingGcode>
+  <layerChangeGcode></layerChangeGcode>
+  <retractionGcode></retractionGcode>
+  <toolChangeGcode></toolChangeGcode>
+  <endingGcode>M104 S0 T0,M104 S0 T1,M140 S0     		;heated bed heater off (if you have it),G91       		;relative positioning,G1 Y+10 F[travel_speed] 	;move Z up a bit and retract filament even more,G28 X0 Y0     		;move X/Y to min endstops, so the head is out of the way,M84         		;steppers off,G90        		;absolute positioning,</endingGcode>
+  <exportFileFormat>gcode</exportFileFormat>
+  <celebration>0</celebration>
+  <celebrationSong>Star Wars</celebrationSong>
+  <postProcessing></postProcessing>
+  <defaultSpeed>3000</defaultSpeed>
+  <outlineUnderspeed>0.6</outlineUnderspeed>
+  <solidInfillUnderspeed>0.6</solidInfillUnderspeed>
+  <supportUnderspeed>0.8</supportUnderspeed>
+  <rapidXYspeed>12000</rapidXYspeed>
+  <rapidZspeed>1002</rapidZspeed>
+  <minBridgingArea>50</minBridgingArea>
+  <bridgingExtraInflation>0</bridgingExtraInflation>
+  <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
+  <bridgingSpeedMultiplier>1</bridgingSpeedMultiplier>
+  <filamentDiameter>1.75</filamentDiameter>
+  <filamentPricePerKg>23.95</filamentPricePerKg>
+  <filamentDensity>1.25</filamentDensity>
+  <useMinPrintHeight>0</useMinPrintHeight>
+  <minPrintHeight>0</minPrintHeight>
+  <useMaxPrintHeight>0</useMaxPrintHeight>
+  <maxPrintHeight>0</maxPrintHeight>
+  <useDiaphragm>0</useDiaphragm>
+  <diaphragmLayerInterval>20</diaphragmLayerInterval>
+  <robustSlicing>1</robustSlicing>
+  <mergeAllIntoSolid>0</mergeAllIntoSolid>
+  <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+  <retractBetweenLayers>0</retractBetweenLayers>
+  <useRetractionMinTravel>1</useRetractionMinTravel>
+  <retractionMinTravel>0.2</retractionMinTravel>
+  <retractWhileWiping>0</retractWhileWiping>
+  <onlyWipeOutlines>1</onlyWipeOutlines>
+  <avoidCrossingOutline>1</avoidCrossingOutline>
+  <maxMovementDetourFactor>3</maxMovementDetourFactor>
+  <toolChangeRetractionDistance>2</toolChangeRetractionDistance>
+  <toolChangeExtraRestartDistance>0</toolChangeExtraRestartDistance>
+  <toolChangeRetractionSpeed>2400</toolChangeRetractionSpeed>
+  <allowThinWallGapFill>1</allowThinWallGapFill>
+  <thinWallAllowedOverlapPercentage>50</thinWallAllowedOverlapPercentage>
+  <horizontalSizeCompensation>0</horizontalSizeCompensation>
+  <autoConfigureMaterial name="PLA">
+    <temperatureController name="Left Extruder Temperature">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="200"/>
+    </temperatureController>
+    <temperatureController name="Right Extruder Temperature">
+      <temperatureNumber>1</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="200"/>
+    </temperatureController>
+    <globalBedTemperature>60</globalBedTemperature>
+    <extruder name="Left Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>0</autoWidth>
+      <width>0.44</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>4.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>2400</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.5</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>1</wipeDistance>
+    </extruder>
+    <extruder name="Right Extruder">
+      <toolheadNumber>1</toolheadNumber>
+      <diameter>0.6</diameter>
+      <autoWidth>0</autoWidth>
+      <width>0.6</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>4.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>2400</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.5</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>1</wipeDistance>
+    </extruder>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+    <defaultSpeed>3000</defaultSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="ABS">
+    <temperatureController name="Left Extruder Temperature">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="245"/>
+    </temperatureController>
+    <temperatureController name="Right Extruder Temperature">
+      <temperatureNumber>1</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="245"/>
+    </temperatureController>
+    <globalBedTemperature>100</globalBedTemperature>
+    <extruder name="Left Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.48</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>4</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.05</retractionZLift>
+      <retractionSpeed>2400</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <extruder name="Right Extruder">
+      <toolheadNumber>1</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.48</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>4</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.05</retractionZLift>
+      <retractionSpeed>2400</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+    </fanSpeed>
+    <defaultSpeed>2400</defaultSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Filaflex">
+    <temperatureController name="Left Extruder Temperature">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="240"/>
+    </temperatureController>
+    <temperatureController name="Right Extruder Temperature">
+      <temperatureNumber>1</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="240"/>
+    </temperatureController>
+    <globalBedTemperature>60</globalBedTemperature>
+    <extruder name="Left Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.48</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>0</useRetract>
+      <retractionDistance>4.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.05</retractionZLift>
+      <retractionSpeed>3000</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <extruder name="Right Extruder">
+      <toolheadNumber>1</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.48</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>0</useRetract>
+      <retractionDistance>4.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.05</retractionZLift>
+      <retractionSpeed>3000</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="5" speed="50"/>
+    </fanSpeed>
+    <defaultSpeed>2100</defaultSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="PLA + PVA">
+    <temperatureController name="Left Extruder Temperature">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="200"/>
+    </temperatureController>
+    <temperatureController name="Right Extruder Temperature">
+      <temperatureNumber>1</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="190"/>
+    </temperatureController>
+    <globalBedTemperature>50</globalBedTemperature>
+    <extruder name="Left Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.48</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>4</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.05</retractionZLift>
+      <retractionSpeed>2400</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <extruder name="Right Extruder">
+      <toolheadNumber>1</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.48</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>4</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.05</retractionZLift>
+      <retractionSpeed>2400</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+    <defaultSpeed>2400</defaultSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureQuality name="Fast">
+    <layerHeight>0.25</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <perimeterOutlines>2</perimeterOutlines>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>10</infillPercentage>
+    <supportInfillPercentage>20</supportInfillPercentage>
+    <internalInfillPattern>Rectilinear</internalInfillPattern>
+    <infillAngles>45,-45</infillAngles>
+    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Medium">
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
+    <perimeterOutlines>2</perimeterOutlines>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>20</supportInfillPercentage>
+    <internalInfillPattern>Full Honeycomb</internalInfillPattern>
+    <infillAngles>0,120,-120</infillAngles>
+    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="High">
+    <layerHeight>0.1</layerHeight>
+    <topSolidLayers>8</topSolidLayers>
+    <bottomSolidLayers>8</bottomSolidLayers>
+    <perimeterOutlines>2</perimeterOutlines>
+    <skirtLayers>2</skirtLayers>
+    <infillPercentage>20</infillPercentage>
+    <supportInfillPercentage>20</supportInfillPercentage>
+    <firstLayerHeightPercentage>200</firstLayerHeightPercentage>
+    <internalInfillPattern>Rectilinear</internalInfillPattern>
+    <infillAngles>45,-45</infillAngles>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Strong">
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>10</topSolidLayers>
+    <bottomSolidLayers>10</bottomSolidLayers>
+    <perimeterOutlines>5</perimeterOutlines>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>30</infillPercentage>
+    <supportInfillPercentage>20</supportInfillPercentage>
+    <internalInfillPattern>Triangular</internalInfillPattern>
+    <infillAngles>0,60,-60</infillAngles>
+    <firstLayerHeightPercentage>125</firstLayerHeightPercentage>
+  </autoConfigureQuality>
+  <autoConfigureExtruders name="Left Extruder Only" allowedToolheads="1">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>0</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>0</supportExtruder>
+    <useSkirt>1</useSkirt>
+    <usePrimePillar>0</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <startingGcode>G21        		;metric values,G90        		;absolute positioning,M82        		;set extruder to absolute mode,M107      		;start with the fan off,G28 X0 Y0  		;move X/Y to min endstops,G28 Z0     		;move Z to min endstops,G92 E0        		;zero the extruded length,G1 Z5 F200		;Safety Z axis movement,G1 F50 E10     		;extrude 7mm of feed stock,G92 E0        		;zero the extruded length again,G1 F200 E1		;Retract before printing,G1 F[travel_speed],</startingGcode>
+    <toolChangeGcode></toolChangeGcode>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="Right Extruder Only" allowedToolheads="1">
+    <primaryExtruder>1</primaryExtruder>
+    <raftExtruder>1</raftExtruder>
+    <skirtExtruder>1</skirtExtruder>
+    <infillExtruder>1</infillExtruder>
+    <supportExtruder>1</supportExtruder>
+    <useSkirt>1</useSkirt>
+    <usePrimePillar>0</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <startingGcode>G21        		;metric values,G90        		;absolute positioning,M82        		;set extruder to absolute mode,M107      		;start with the fan off,G28 X0 Y0  		;move X/Y to min endstops,G28 Z0     		;move Z to min endstops,G92 E0        		;zero the extruded length,G1 Z5 F200		;Safety Z axis movement,G1 F50 E7     		;extrude 7mm of feed stock,G92 E0        		;zero the extruded length again,G1 F200 E-4		;Retract before printing,G1 F[travel_speed],</startingGcode>
+    <toolChangeGcode/>
+  </autoConfigureExtruders>
+  <autoConfigureExtruders name="Both Extruders" allowedToolheads="2">
+    <primaryExtruder>0</primaryExtruder>
+    <raftExtruder>0</raftExtruder>
+    <skirtExtruder>999</skirtExtruder>
+    <infillExtruder>0</infillExtruder>
+    <supportExtruder>0</supportExtruder>
+    <useSkirt>1</useSkirt>
+    <usePrimePillar>0</usePrimePillar>
+    <useOozeShield>0</useOozeShield>
+    <startingGcode>G21       	;metric values,G90       	;absolute positioning,M107       	;start with the fan off,G28 X0 Y0  	;move X/Y to min endstops,G28 Z0     	;move Z to min endstops,T1          	;Switch to the 2nd extruder,G92 E0      	;zero the extruded length,G1 F100 E4 	;extrude 10mm of feed stock,G92 E0      	;zero the extruded length again,G1 F200 E-9,T0         	;Switch to the first extruder,G92 E0      	;zero the extruded length,G1 F200 E4 	;extrude 10m of feed stock,G92 E0      	;zero the extruded length again,G1 Z5 F200	;Safety Z axis movement,G1 F[travel_speed]</startingGcode>
+    <toolChangeGcode>{IF NEWTOOL=0} T0			;start tool switch 0,{IF NEWTOOL=0} G1 Y250 F[travel_speed]		;travel,{IF NEWTOOL=0} G1 F500 E-0.5			;fast purge 			,{IF NEWTOOL=0} G1 F50 E2			;slow purge,{IF NEWTOOL=0} G92 E0			;reset t0,{IF NEWTOOL=0} G1 F3000 E-2		;retract,{IF NEWTOOL=0} G1 F[travel_speed]		;end tool switch,,{IF NEWTOOL=1} T1			;start tool switch 1,{IF NEWTOOL=1} G1 Y250 F[travel_speed]		;travel,{IF NEWTOOL=1} G1 F500 E-0.5			;fast purge 			,{IF NEWTOOL=1} G1 F50 E2			;slow purge,{IF NEWTOOL=1} G92 E0			;reset t1,{IF NEWTOOL=1} G1 F3000 E-2		;retract,{IF NEWTOOL=1} G1 F[travel_speed]		;end tool switch</toolChangeGcode>
+  </autoConfigureExtruders>
+  <autoConfigureMaterial name="1.75">
+    <temperatureController name="Left Extruder Temperature">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="245"/>
+    </temperatureController>
+    <temperatureController name="Right Extruder Temperature">
+      <temperatureNumber>1</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <relayBetweenLayers>0</relayBetweenLayers>
+      <relayBetweenLoops>0</relayBetweenLoops>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="240"/>
+    </temperatureController>
+    <globalBedTemperature>60</globalBedTemperature>
+    <extruder name="Left Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>0</autoWidth>
+      <width>0.46</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>3.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>1800</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.5</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>1</wipeDistance>
+    </extruder>
+    <extruder name="Right Extruder">
+      <toolheadNumber>1</toolheadNumber>
+      <diameter>0.4</diameter>
+      <autoWidth>0</autoWidth>
+      <width>0.46</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>3.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>1800</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.5</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>1</wipeDistance>
+    </extruder>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+    <defaultSpeed>3000</defaultSpeed>
+  </autoConfigureMaterial>
+</profile>
